@@ -1,0 +1,692 @@
+{
+  "item_type": "show",
+  "collection_type": "inline",
+  "shows": [
+    {
+      "title": "The Great British Baking Show",
+      "tracking_ga_page": "UA-26636391-5",
+      "popularity": null,
+      "slug": "great-british-baking-show",
+      "tracking_ga_event": "UA-26636391-2",
+      "description_short": "",
+      "item_type": "show",
+      "cid": "d5c3624d-24d0-49f9-93e5-296774990d12",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "food",
+        "title": "Food",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/food/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "46578c3e-f467-4332-9400-959a31729a0f"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2017-04-11T07:17:12.159626Z",
+          "value": "http://www.pbs.org/food/shows/great-british-baking-show/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-06-25T14:45:40.053221Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/the-great-british-baking-show-season-5/id1391740067?mt=4&at=11l3Sf&ct=GreatBritishBakingShowSeason5MM"
+        },
+        {
+          "profile": "twitter",
+          "updated_at": "2017-05-30T20:04:06.308854Z",
+          "value": "https://twitter.com/PBSFood"
+        },
+        {
+          "profile": "ios",
+          "updated_at": "2018-04-06T01:19:57.343868Z",
+          "value": "https://itunes.apple.com/us/tv-show/the-great-british-baking-show/id1131276109?at=11l3Sf&ct=BakingShowiOS"
+        },
+        {
+          "profile": "apple-tv",
+          "updated_at": "2018-04-06T01:19:56.777583Z",
+          "value": "https://itunes.apple.com/us/tv-show/the-great-british-baking-show/id1131276109?at=11l3Sf&ct=BakingShowAppleTV"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "https://image.pbs.org/contentchannels/2969/jG4GHTFNaKemFyVHmZFP3Q.jpg",
+        "show-black-logo": "https://image.pbs.org/contentchannels/2969/aw80fPLnCc0XMO3hJ365g.png",
+        "show-white-logo": "https://image.pbs.org/contentchannels/2969/4nHr9Y12DYv5R3DqlzIh8A.png",
+        "show-logo": "https://image.pbs.org/contentchannels/2969/RCP09oGfWaK5GHEG1YhrA.png",
+        "show-showcase": "https://image.pbs.org/contentchannels/2969/j1SyJRpGND7ub21wopxCQ.jpg",
+        "show-mezzanine16x9": "https://image.pbs.org/contentchannels/2969/EH8iyHbsTUEnMsJSNS6xA.jpg",
+        "show-banner": "https://image.pbs.org/contentchannels/2969/QBebvEqMT1QsGJi9wQCuLQ.jpg",
+        "show-stack-image": "http://its.pbs.org/program_pages/Great-British-Baking-Show-COVE-16x9.jpg",
+        "color-logo-41": "https://image.pbs.org/contentchannels/urrtXNe-color-logo-41-mlvhFYG.png",
+        "white-logo-41": "https://image.pbs.org/contentchannels/ZqbUneH-white-logo-41-QqYtOLu.png",
+        "show-color-logo": "https://image.pbs.org/contentchannels/2969/barobYzWs0SeNBEIKEKgDA.png",
+        "black-logo-41": "https://image.pbs.org/contentchannels/bkkxLsK-black-logo-41-oVgidVz.png"
+      },
+      "description_long": "Follow the trials and tribulations of passionate amateur bakers whose goal is to be named the U.K.\u0092s best. Each week, the bakers tackle a different skill, the difficulty of which increases as the competition unfolds. ",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/great-british-baking-show/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "The Great British Baking Show"
+    },
+    {
+      "title": "No Passport Required",
+      "tracking_ga_page": "UA-26636391-5",
+      "popularity": null,
+      "slug": "no-passport-required",
+      "tracking_ga_event": "UA-26636391-2",
+      "description_short": "Explore the diversity of immigrant traditions and cuisine woven through American culture.",
+      "item_type": "show",
+      "cid": "e2d114e6-f294-491a-bbe4-1f1205de3680",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "food",
+        "title": "Food",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/food/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "46578c3e-f467-4332-9400-959a31729a0f"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2018-07-11T02:21:11.728966Z",
+          "value": "https://www.pbs.org/food/shows/no-passport-required/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-07-13T14:08:39.428704Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/no-passport-required/id1394254772?4&at=11l3Sf&ct=NoPassportRequiredMM"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "http://image.pbs.org/contentchannels/R5H9H2A-show-poster2x3-CtTVYKR.jpg",
+        "show-black-logo": "http://image.pbs.org/contentchannels/ic6fWJK-show-black-logo-ro6jSra.png",
+        "show-white-logo": "http://image.pbs.org/contentchannels/aJUG9ZD-show-white-logo-XxOvCdG.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/NJ5Ex5s-show-mezzanine16x9-JMGFHUD.jpg",
+        "show-color-logo": "http://image.pbs.org/contentchannels/uDmimoM-show-color-logo-SCI0rfO.png"
+      },
+      "description_long": "Join chef Marcus Samuelsson on an inspiring journey across the U.S. to explore and celebrate the wide-ranging diversity of immigrant traditions and cuisine woven into American food and culture.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/no-passport-required/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "No Passport Required"
+    },
+    {
+      "title": "Wonders of Mexico",
+      "tracking_ga_page": "",
+      "popularity": null,
+      "slug": "wonders-mexico",
+      "tracking_ga_event": "",
+      "description_short": "Journey across Mexico to discover its amazing wildlife and culture.",
+      "item_type": "show",
+      "cid": "d72fdd18-7371-4cf9-9aea-e43b011b2f62",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "science-and-nature",
+        "title": "Science and Nature",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/science-and-nature/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "09684cc5-9a7e-460f-841f-4d95987a8f53"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2018-07-09T15:46:07.715015Z",
+          "value": "http://www.pbs.org/wonders-mexico/home/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-08-02T15:22:16.387333Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/wonders-of-mexico/id1402710796?4&at=11l3Sf&ct=WondersofMexicoMM"
+        },
+        {
+          "profile": "buy-dvd",
+          "updated_at": "2018-07-05T21:03:21.121027Z",
+          "value": "https://shop.pbs.org/product/WMEX601?utm_source=PBS&utm_medium=Link&utm_content=wonders_of_mexico_covebuyit&utm_campaign=cove_buyit"
+        }
+      ],
+      "images": {
+        "show-showcase": "http://image.pbs.org/contentchannels/Yv1hpaq-show-showcase-kewlP3h.jpg",
+        "show-poster2x3": "http://image.pbs.org/contentchannels/zpFCsPf-show-poster2x3-sn4Lqts.jpg",
+        "show-white-logo": "http://image.pbs.org/contentchannels/zbhSo2x-show-white-logo-1MdXUG2.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/aFHVN7s-show-mezzanine16x9-XDGhuNb.jpg",
+        "show-black-logo": "http://image.pbs.org/contentchannels/KftMCsT-show-black-logo-vMkaIom.png"
+      },
+      "description_long": "Travel south along Mexico's mountain spine, explore the tropical forests of the Maya and journey across the deserts of Northern Mexico to discover its amazing wildlife and culture.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/wonders-mexico/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "Wonders of Mexico"
+    },
+    {
+      "title": "Outback",
+      "tracking_ga_page": "",
+      "popularity": null,
+      "slug": "outback",
+      "tracking_ga_event": "",
+      "description_short": "Journey with the people and animals of Australia\u2019s Kimberley region.",
+      "item_type": "show",
+      "cid": "b0ef1863-6661-4fb5-a803-dae43ae61309",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "science-and-nature",
+        "title": "Science and Nature",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/science-and-nature/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "09684cc5-9a7e-460f-841f-4d95987a8f53"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2018-07-03T14:45:16.212557Z",
+          "value": "http://www.pbs.org/outback/home/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-08-02T15:28:19.078331Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/the-outback/id1402688618=4&at=11l3Sf&ct=TheOutbackMM"
+        }
+      ],
+      "images": {
+        "show-showcase": "http://image.pbs.org/contentchannels/tl4M51w-show-showcase-Yq1CHki.jpg",
+        "show-poster2x3": "http://image.pbs.org/contentchannels/kZE1tUn-show-poster2x3-hiII9Vm.jpg",
+        "show-white-logo": "http://image.pbs.org/contentchannels/5fsz4Jy-show-white-logo-ah6BH6I.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/ddtLIjY-show-mezzanine16x9-iIIPcWh.jpg",
+        "show-black-logo": "http://image.pbs.org/contentchannels/nP98gcG-show-black-logo-oq599M8.png"
+      },
+      "description_long": "Journey with the people and animals of Australia\u2019s Kimberley region in North West Australia: a vast, rugged and remote wilderness, bursting with character.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/outback/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "Outback"
+    },
+    {
+      "title": "Sherlock",
+      "tracking_ga_page": "UA-3988763-1",
+      "popularity": null,
+      "slug": "sherlock",
+      "tracking_ga_event": "UA-3988763-2",
+      "description_short": "Sherlock Holmes solves crimes with his long-suffering, faithful friend, Dr. John Watson.",
+      "item_type": "show",
+      "cid": "cead2f61-fbb7-47bc-8cca-01d276f54116",
+      "franchise": {
+        "slug": "masterpiece",
+        "title": "Masterpiece",
+        "url": "https://content.services.pbs.org/v3/androidtv/screens/franchises/masterpiece/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "e08bf78d-e6a3-44b9-b356-8753d01c7327"
+      },
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "drama",
+        "title": "Drama",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/drama/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "a6c8f8a3-fd3a-4ffe-9a0d-d32e6e584d5d"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2017-04-11T17:08:49.176537Z",
+          "value": "http://www.pbs.org/wgbh/masterpiece/shows/sherlock/"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "https://image.pbs.org/contentchannels/aOCxyzm-show-poster2x3-iD8SFXo.jpg",
+        "show-black-logo": "https://image.pbs.org/contentchannels/QqyP440-show-black-logo-PX4y8KW.png",
+        "show-white-logo": "https://image.pbs.org/contentchannels/20IiP0P-show-white-logo-WAKg6hr.png",
+        "show-mezzanine16x9": "https://image.pbs.org/contentchannels/3K639DV-show-mezzanine16x9-S3xFqJE.jpg",
+        "color-logo-41": "https://image.pbs.org/contentchannels/sTBvCcx-color-logo-41-qcEQCYd.png",
+        "white-logo-41": "https://image.pbs.org/contentchannels/raMaVvY-white-logo-41-GAuDaSF.png",
+        "show-showcase": "https://image.pbs.org/contentchannels/cXLqvL5-show-showcase-pGTRasA.jpg",
+        "black-logo-41": "https://image.pbs.org/contentchannels/euiSftI-black-logo-41-cBvlChz.png",
+        "show-banner": "https://image.pbs.org/contentchannels/NgXg6DX-show-banner-0Fe6B9w.jpg"
+      },
+      "description_long": "The world\u2019s only consulting detective, Sherlock Holmes (Benedict Cumberbatch), teams up with his long-suffering, faithful friend, Dr. John Watson (Martin Freeman), to solve a dizzying array of crimes and battle diabolical villains with his signature deductive reasoning and his stunning lack of social grace.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/sherlock/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "Sherlock"
+    },
+    {
+      "title": "Endeavour",
+      "tracking_ga_page": "UA-3988763-1",
+      "popularity": null,
+      "slug": "endeavour",
+      "tracking_ga_event": "UA-3988763-2",
+      "description_short": "Shaun Evans charms audiences with his portrayal of the cerebral Detective Constable Morse.",
+      "item_type": "show",
+      "cid": "83eedce1-5dab-48cb-8153-151dde31f17a",
+      "franchise": {
+        "slug": "masterpiece",
+        "title": "Masterpiece",
+        "url": "https://content.services.pbs.org/v3/androidtv/screens/franchises/masterpiece/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "e08bf78d-e6a3-44b9-b356-8753d01c7327"
+      },
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "drama",
+        "title": "Drama",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/drama/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "a6c8f8a3-fd3a-4ffe-9a0d-d32e6e584d5d"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2017-04-11T12:37:28.083801Z",
+          "value": "http://www.pbs.org/wgbh/masterpiece/shows/endeavour/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-06-25T14:41:08.794166Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/endeavour-season-5/id1393054222?4&at=11l3Sf&ct=EndeavourSeason5MM"
+        },
+        {
+          "profile": "amazon",
+          "updated_at": "2018-06-25T14:41:09.281649Z",
+          "value": "https://www.amazon.com/gp/product/B07DYKM9VK/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07DYKM9VK&linkId=6c0780895bcf15351826039b5adc53d9"
+        },
+        {
+          "profile": "buy-dvd",
+          "updated_at": "2018-05-21T14:02:36.621114Z",
+          "value": "https://shop.pbs.org/product/MS61710?utm_source=PBS&utm_medium=Link&utm_content=MAST_endeavour_5_covebuyit&utm_campaign=cove_buyit"
+        },
+        {
+          "profile": "facebook",
+          "updated_at": "2017-05-30T20:14:38.439771Z",
+          "value": "https://www.facebook.com/masterpiecepbs/"
+        },
+        {
+          "profile": "instagram",
+          "updated_at": "2017-05-30T20:14:38.545733Z",
+          "value": "https://www.instagram.com/masterpiecepbs/"
+        },
+        {
+          "profile": "pinterest",
+          "updated_at": "2017-05-30T20:14:38.597304Z",
+          "value": "https://www.pinterest.com/masterpiecepbs/"
+        },
+        {
+          "profile": "twitter",
+          "updated_at": "2017-05-30T20:14:38.501925Z",
+          "value": "https://twitter.com/masterpiecepbs"
+        },
+        {
+          "profile": "ios",
+          "updated_at": "2018-04-06T01:14:45.596771Z",
+          "value": "https://itunes.apple.com/us/tv-show/endeavour/id1266008341?at=11l3Sf&ct=EndeavouriOS"
+        },
+        {
+          "profile": "apple-tv",
+          "updated_at": "2018-04-06T01:14:45.152778Z",
+          "value": "https://itunes.apple.com/us/tv-show/endeavour/id1266008341?at=11l3Sf&ct=EndeavourAppleTV"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "https://image.pbs.org/contentchannels/FZP7aku-show-poster2x3-RBFd81B.jpg",
+        "show-black-logo": "https://image.pbs.org/contentchannels/IldCHQA-show-black-logo-Az49DIi.png",
+        "show-white-logo": "https://image.pbs.org/contentchannels/Z8jsIEP-show-white-logo-4CWLlgC.png",
+        "show-mezzanine16x9": "https://image.pbs.org/contentchannels/7xfRL3i-show-mezzanine16x9-S56OJf1.jpg",
+        "color-logo-41": "https://image.pbs.org/contentchannels/aEEDuYo-color-logo-41-QEjZrQJ.png",
+        "white-logo-41": "https://image.pbs.org/contentchannels/OLPTEZO-white-logo-41-ZLjzHDv.png",
+        "show-showcase": "https://image.pbs.org/contentchannels/htcxqAY-show-showcase-RFGGL79.jpg",
+        "black-logo-41": "https://image.pbs.org/contentchannels/cdVJNoC-black-logo-41-oBZftBE.png",
+        "show-banner": "https://image.pbs.org/contentchannels/OteutiC-show-banner-G37iUqP.jpg"
+      },
+      "description_long": "Shaun Evans (The Take, The Last Weekend, Silk), charms audiences with his portrayal of the cerebral and solitary Detective Constable Morse in Endeavour, written by Inspector Lewis creator and Inspector Morse writer Russell Lewis.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/endeavour/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "Endeavour"
+    },
+    {
+      "title": "The Tunnel",
+      "tracking_ga_page": "",
+      "popularity": null,
+      "slug": "tunnel",
+      "tracking_ga_event": "",
+      "description_short": "Karl Roebuck and Elise Wassermann reunite for the finale of \"The Tunnel.\"",
+      "item_type": "show",
+      "cid": "a50eab49-da98-45f5-ab6f-0bb16f2bbfe2",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "drama",
+        "title": "Drama",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/drama/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "a6c8f8a3-fd3a-4ffe-9a0d-d32e6e584d5d"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2017-04-27T16:05:13.122066Z",
+          "value": "http://www.pbs.org/program/tunnel/"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "http://image.pbs.org/contentchannels/jGEgQr7-show-poster2x3-TVZkPyJ.jpg",
+        "show-black-logo": "https://image.pbs.org/contentchannels/3547/9YMNLE1b4U693vi604E3Fg.png",
+        "show-white-logo": "https://image.pbs.org/contentchannels/3547/9ZenmFoWw2usoystpisnw.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/Jb5bdhL-show-mezzanine16x9-5Qg106E.jpg",
+        "color-logo-41": "https://image.pbs.org/contentchannels/VMJbBZS-color-logo-41-DUGpcca.png",
+        "show-stack-image": "http://its.pbs.org/program_pages/TheTunnel_Mezz.jpg",
+        "show-showcase": "http://image.pbs.org/contentchannels/IzkV5z3-show-showcase-YH8rpyx.jpg",
+        "show-color-logo": "https://image.pbs.org/contentchannels/3547/a3EF75oeYOQvyoj10Ku6g.png",
+        "white-logo-41": "https://image.pbs.org/contentchannels/gMnKIjM-white-logo-41-JmJHHOh.png",
+        "black-logo-41": "https://image.pbs.org/contentchannels/NzQJkHH-black-logo-41-VKGGjYp.png"
+      },
+      "description_long": "The emotionally charged finale of the critically acclaimed bilingual crime thriller, \"The Tunnel,\" reunites Stephen Dillane in his International Emmy award-winning role as Karl Roebuck with Cl\u00e9mence Po\u00e9sy as Elise Wassermann, for the last outing of this beloved and unlikely Anglo-French partnership.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/tunnel/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "The Tunnel"
+    },
+    {
+      "title": "Kingdoms of the Sky",
+      "tracking_ga_page": "",
+      "popularity": null,
+      "slug": "kingdoms-sky",
+      "tracking_ga_event": "",
+      "description_short": "Meet the extraordinary people who make home on the world's iconic mountain ranges.",
+      "item_type": "show",
+      "cid": "48ed0c1b-762a-478b-ab70-9b17827b6af4",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "science-and-nature",
+        "title": "Science and Nature",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/science-and-nature/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "09684cc5-9a7e-460f-841f-4d95987a8f53"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2018-06-27T15:19:40.833729Z",
+          "value": "http://www.pbs.org/kingdoms-sky/home/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-07-13T14:31:53.447808Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/kingdoms-of-the-sky/id1394245122?4&at=11l3Sf&ct=KingdomsoftheSkyMM"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "http://image.pbs.org/contentchannels/d9kp2zf-show-poster2x3-hUdCLg7.png",
+        "show-black-logo": "http://image.pbs.org/contentchannels/A7ldcdP-show-black-logo-wGBkfeD.png",
+        "show-white-logo": "http://image.pbs.org/contentchannels/KygzWin-show-white-logo-LxtA2Bb.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/KTVxzIt-show-mezzanine16x9-bct7izW.png",
+        "white-logo-41": "http://image.pbs.org/contentchannels/axaeerS-white-logo-41-OXUqL9y.png",
+        "show-showcase": "http://image.pbs.org/contentchannels/kv63MVo-show-showcase-8qjtPpF.png",
+        "black-logo-41": "http://image.pbs.org/contentchannels/tGvaTn5-black-logo-41-IYgUbeL.png",
+        "show-banner": "http://image.pbs.org/contentchannels/icxKslc-show-banner-clZRTRt.png"
+      },
+      "description_long": "A landmark three part series made in conjunction with the BBC, Kingdoms of the Sky reveals the extraordinary animals and remarkable people who make a home on the iconic mountain ranges of the world. Breathtaking photography takes viewers through three episodes across the Himalaya, Rockies and Andes.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/kingdoms-sky/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "Kingdoms of the Sky"
+    },
+    {
+      "title": "10 That Changed America",
+      "tracking_ga_page": "UA-99712024-1",
+      "popularity": null,
+      "slug": "10-changed-america",
+      "tracking_ga_event": "UA-99712024-2",
+      "description_short": "Explore the legendary streets, monuments and man-made marvels that changed America.",
+      "item_type": "show",
+      "cid": "65b5ac61-6c29-4d0d-bc94-9dd572fd9c64",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "culture",
+        "title": "Culture",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/culture/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "9a9f5b68-539c-4aea-83cc-a3f8d67505a0"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2018-06-19T16:47:37.311180Z",
+          "value": "https://www.pbs.org/ten-that-changed-america/home/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-07-11T17:27:11.417099Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/10-that-changed-america-season-2/id1394238318?4&at=11l3Sf&ct=10ThatChangedAmerica2MM"
+        },
+        {
+          "profile": "amazon",
+          "updated_at": "2018-07-11T17:14:40.440039Z",
+          "value": "https://www.amazon.com/gp/product/B07FCW11QG/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07FCW11QG&linkId=1c8aaae2622d8fe8cdc9bb3575f8ffbd"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "http://image.pbs.org/contentchannels/LxvuXcL-show-poster2x3-VNvpMzC.jpg",
+        "show-black-logo": "https://image.pbs.org/contentchannels/3452/U5WR8XLQSGFeRHGHtAw0NQ.png",
+        "show-white-logo": "https://image.pbs.org/contentchannels/3452/AIruIAIVyaY9Hf8tqnlWg.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/nhPnEKz-show-mezzanine16x9-A1MyNZT.jpg",
+        "color-logo-41": "https://image.pbs.org/contentchannels/HqYFxPq-color-logo-41-JqkhSds.png",
+        "show-stack-image": "http://its.pbs.org/program_pages/10series2-mezz.jpg",
+        "show-showcase": "http://image.pbs.org/contentchannels/8hl8yZ5-show-showcase-amaDjAX.jpg",
+        "show-color-logo": "https://image.pbs.org/contentchannels/3452/ECVA08bYuPRVjzAsgdqdEQ.png",
+        "white-logo-41": "https://image.pbs.org/contentchannels/wPKuvmy-white-logo-41-BnjCrtT.png",
+        "black-logo-41": "https://image.pbs.org/contentchannels/cveAGpu-black-logo-41-nOlcMfh.png",
+        "show-banner": "http://image.pbs.org/contentchannels/4x18QWd-show-banner-T4DTIhd.jpg"
+      },
+      "description_long": "Host Geoffrey Baer takes viewers across the country to the legendary streets, monuments and man-made marvels that changed America. Explore the streets that change the way we get around, visit the Statue of Liberty and Mount Rushmore, and learn more about the engineering feats that made our civilization possible.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/10-changed-america/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "10 That Changed America"
+    },
+    {
+      "title": "Earth's Natural Wonders",
+      "tracking_ga_page": "",
+      "popularity": null,
+      "slug": "earths-natural-wonders",
+      "tracking_ga_event": "",
+      "description_short": "Earth\u2019s natural wonders are beautiful, but survival there takes bravery and ingenuity.",
+      "item_type": "show",
+      "cid": "8920a423-c836-40a9-9f65-7af07e32abf6",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "science-and-nature",
+        "title": "Science and Nature",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/science-and-nature/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "09684cc5-9a7e-460f-841f-4d95987a8f53"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2017-04-11T07:17:12.159626Z",
+          "value": "http://www.pbs.org/program/earths-natural-wonders/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-07-13T14:21:35.315165Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/earths-natural-wonders-life-at-the-extremes-season-2/id1394248725?4&at=11l3Sf&ct=Earth'sNaturalWonders2MM"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "http://image.pbs.org/contentchannels/IuLzY5l-show-poster2x3-dUk5OGC.jpg",
+        "show-black-logo": "http://image.pbs.org/contentchannels/qsljmOw-show-black-logo-9QxSaw5.png",
+        "show-white-logo": "http://image.pbs.org/contentchannels/Q8nK8Ee-show-white-logo-53uHE1Z.png",
+        "show-stack-image": "http://its.pbs.org/program_pages/ENW_16x9.jpg",
+        "show-logo": "http://image.pbs.org/contentchannels/K3RyjNB-show-logo-tt19ie0.png",
+        "show-showcase": "http://image.pbs.org/contentchannels/B5UbZ5W-show-showcase-dfqBjDl.jpg",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/JsIRmll-show-mezzanine16x9-td5z0qJ.jpg",
+        "show-banner": "http://image.pbs.org/contentchannels/f3ZJW6k-show-banner-wCXOZgI.jpg"
+      },
+      "description_long": "Earth's natural wonders are parts of the natural world that nature has carved on such a scale that they defy belief. For human beings, survival within these extraordinary places can pose great challenges. Yet human ingenuity makes this possible.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/earths-natural-wonders/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "Earth's Natural Wonders"
+    },
+    {
+      "title": "The Great American Read",
+      "tracking_ga_page": "",
+      "popularity": null,
+      "slug": "great-american-read",
+      "tracking_ga_event": "",
+      "description_short": "A journey through America that introduces our list of the 100 best-loved books.",
+      "item_type": "show",
+      "cid": "9579e2c7-b83e-444e-985d-a6c6a632b4b7",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "culture",
+        "title": "Culture",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/culture/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "9a9f5b68-539c-4aea-83cc-a3f8d67505a0"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2018-01-16T19:11:36.223314Z",
+          "value": "http://www.pbs.org/the-great-american-read/home/"
+        },
+        {
+          "profile": "itunes",
+          "updated_at": "2018-06-07T14:26:30.159558Z",
+          "value": "https://geo.itunes.apple.com/us/tv-season/the-great-american-read/id1381432655?4&at=11l3Sf&ct=TheGreatAmericanReadMM"
+        },
+        {
+          "profile": "amazon",
+          "updated_at": "2018-06-07T14:26:30.375786Z",
+          "value": "https://www.amazon.com/gp/product/B07DC16LQ7/ref=as_li_tl?ie=UTF8&tag=p05a2-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B07DC16LQ7&linkId=5899f384263006ebcc8c0b353eb7ce20"
+        },
+        {
+          "profile": "facebook",
+          "updated_at": "2018-06-06T17:57:54.229338Z",
+          "value": "https://www.facebook.com/GreatAmericanReadPBS/"
+        },
+        {
+          "profile": "instagram",
+          "updated_at": "2018-06-06T17:57:54.845745Z",
+          "value": "https://www.instagram.com/greatamericanreadpbs/"
+        },
+        {
+          "profile": "pinterest",
+          "updated_at": "2018-06-06T17:57:54.733911Z",
+          "value": "https://www.pinterest.com/greatamericanreadpbs/"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "http://image.pbs.org/contentchannels/rIeISss-show-poster2x3-x5bnNO1.jpg",
+        "show-black-logo": "http://image.pbs.org/contentchannels/MAeVr6X-show-black-logo-EfTYBly.png",
+        "show-white-logo": "http://image.pbs.org/contentchannels/m4d1msL-show-white-logo-1NQDfJd.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/Qjk7Srl-show-mezzanine16x9-eZ2Uo8b.jpg",
+        "show-showcase": "http://image.pbs.org/contentchannels/k2TrRXD-show-showcase-yq1mF3f.jpg",
+        "show-banner": "http://image.pbs.org/contentchannels/Wjb9Jnd-show-banner-9gziaIp.jpg"
+      },
+      "description_long": "A journey through America that introduces our list of the 100 best-loved books and explores the many ways in which these novels affect, reflect and connect us all.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/great-american-read/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "Great American Read"
+    },
+    {
+      "title": "POV",
+      "tracking_ga_page": "UA-3987377-1",
+      "popularity": null,
+      "slug": "pov",
+      "tracking_ga_event": "UA-3987377-2",
+      "description_short": "Independent film makers present unique stories and characters with a point of view.",
+      "item_type": "show",
+      "cid": "83cfbb7d-9b00-4bc0-87b9-93677b81e9e6",
+      "franchise": null,
+      "audience": [
+        {
+          "scope": "national",
+          "station": null
+        }
+      ],
+      "genre": {
+        "slug": "indie-films",
+        "title": "Indie Films",
+        "url": "https://content.services.pbs.org/v3/androidtv/collections/indie-films/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+        "cid": "913015f1-c747-4109-a64b-4876c5929846"
+      },
+      "links": [
+        {
+          "profile": "producer",
+          "updated_at": "2017-05-04T19:09:28.366981Z",
+          "value": "http://www.pbs.org/pov/"
+        },
+        {
+          "profile": "facebook",
+          "updated_at": "2017-05-04T19:09:28.367368Z",
+          "value": "https://www.facebook.com/povdocs"
+        },
+        {
+          "profile": "instagram",
+          "updated_at": "2017-05-04T19:09:28.367204Z",
+          "value": "https://www.instagram.com/povdocs/"
+        },
+        {
+          "profile": "pinterest",
+          "updated_at": "2017-05-04T19:09:28.367259Z",
+          "value": "https://www.pinterest.com/povdocs/"
+        },
+        {
+          "profile": "tumblr",
+          "updated_at": "2017-05-04T19:09:28.367314Z",
+          "value": "http://povdocs.tumblr.com/"
+        },
+        {
+          "profile": "twitter",
+          "updated_at": "2017-05-04T19:09:28.367121Z",
+          "value": "https://twitter.com/povdocs"
+        }
+      ],
+      "images": {
+        "show-poster2x3": "http://image.pbs.org/contentchannels/M4VUkVH-show-poster2x3-EqKlKQC.jpg",
+        "show-black-logo": "https://image.pbs.org/contentchannels/45/k7XZ28Le4BBDBxFGtbDiKA.png",
+        "show-white-logo": "https://image.pbs.org/contentchannels/45/Nd74YwoMswR1zTqqV0tg.png",
+        "show-mezzanine16x9": "http://image.pbs.org/contentchannels/KGr8pHj-show-mezzanine16x9-DN7at2O.jpg",
+        "color-logo-41": "https://image.pbs.org/contentchannels/qbmEpeM-color-logo-41-nLUFuPZ.png",
+        "white-logo-41": "https://image.pbs.org/contentchannels/HjQEGWs-white-logo-41-wtNMzrW.png",
+        "show-color-logo": "https://image.pbs.org/contentchannels/45/SZdU4q83U2BaVJRH946mNw.png",
+        "black-logo-41": "https://image.pbs.org/contentchannels/cNxwMvP-black-logo-41-rrJvgEA.png",
+        "show-logo": "https://image.pbs.org/contentchannels/45/ZAdb1IhOlIuSvqmbTmevqw.png"
+      },
+      "description_long": "Since 1988, POV has been the home for the world\u2019s boldest contemporary filmmakers, celebrating intriguing personal stories that spark conversation and inspire action. With our documentary broadcasts, original online programming and community engagement campaigns, we are committed to supporting films that capture the imagination and present diverse perspectives.",
+      "url": "https://content.services.pbs.org/v3/androidtv/screens/shows/pov/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+      "title_sortable": "POV"
+    }
+  ],
+  "slug": "featured-shows",
+  "has_profile_data": false,
+  "url": "https://content.services.pbs.org/v3/androidtv/collections/featured-shows/?station_id=fdb26654-eed0-4858-aa50-a84b538f4747",
+  "title": "Featured Shows"
+}
