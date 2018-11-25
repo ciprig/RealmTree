@@ -41,6 +41,8 @@ class CityListActivity : AppCompatActivity() {
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
+
+            repository.addMore()
         }
 
         if (city_detail_container != null) {
@@ -59,19 +61,19 @@ class CityListActivity : AppCompatActivity() {
     private fun setupRecyclerView(recyclerView: RecyclerView) {
 
         adapter = CityRecyclerViewAdapter(this, twoPane)
-        recyclerView.adapter = CityRecyclerViewAdapter(this, twoPane)
+        recyclerView.adapter = adapter
 
-//        disp.add(repository.getCities().doOnNext( {Log.i("realm",
-//            "$it ${it.collection.isLoaded} ${it.collection.isValid} ${it.collection.size}" )})
-//            .filter( { list -> list.collection.isLoaded})
-//            .subscribe(adapter::updateValues))
+        disp.add(repository.getCitiesChangeset().doOnNext {Log.i("realm",
+            "$it ${it.collection.isLoaded} ${it.collection.isValid} ${it.collection.size}" )}
+            .filter { list -> list.collection.isLoaded}
+            .subscribe(adapter::updateValues))
 
 
-        disp.add(repository.getCitiesFlowable()
-            //.doOnNext( {Log.i("realm", "$it ${it.isLoaded} ${it.isValid} ${it.size}" )})
-            //.filter( { it.isLoaded})
-            .subscribe {
-                adapter.updateValues(it) })
+//        disp.add(repository.getCitiesFlowable()
+//            //.doOnNext( {Log.i("realm", "$it ${it.isLoaded} ${it.isValid} ${it.size}" )})
+//            //.filter( { it.isLoaded})
+//            .subscribe {
+//                adapter.updateValues(it) })
 
     }
 

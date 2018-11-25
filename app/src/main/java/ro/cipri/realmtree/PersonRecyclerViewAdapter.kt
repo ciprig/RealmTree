@@ -1,7 +1,5 @@
 package ro.cipri.realmtree
 
-import android.content.Intent
-import android.os.Bundle
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -10,72 +8,52 @@ import android.widget.TextView
 import io.realm.RealmResults
 import io.realm.rx.CollectionChange
 import kotlinx.android.synthetic.main.city_list_content.view.*
-import ro.cipri.realmtree.dummy.DummyContent
 import ro.cipri.realmtree.model.City
 import java.util.*
 import io.realm.OrderedCollectionChangeSet
+import ro.cipri.realmtree.model.Person
 
 
-class CityRecyclerViewAdapter(
+class PersonRecyclerViewAdapter(
     private val parentActivity: CityListActivity,
-    private val twoPane: Boolean) : RecyclerView.Adapter<CityRecyclerViewAdapter.ViewHolder>() {
+    private val twoPane: Boolean) : RecyclerView.Adapter<PersonRecyclerViewAdapter.ViewHolder>() {
 
-    private var cities: List<City> = Collections.emptyList()
+    private var persons: List<Person> = Collections.emptyList()
 
-    private val onClickListener: View.OnClickListener
     private val updateOnModification = true
 
     init {
         setHasStableIds(true)
-        onClickListener = View.OnClickListener { v ->
-            val item = v.tag as DummyContent.DummyItem
-            if (twoPane) {
-                val fragment = CityDetailFragment().apply {
-                    arguments = Bundle().apply {
-                        putString(CityDetailFragment.ARG_ITEM_ID, item.id)
-                    }
-                }
-                parentActivity.supportFragmentManager
-                    .beginTransaction()
-                    .replace(R.id.city_detail_container, fragment)
-                    .commit()
-            } else {
-                val intent = Intent(v.context, CityDetailActivity::class.java).apply {
-                    putExtra(CityDetailFragment.ARG_ITEM_ID, item.id)
-                }
-                v.context.startActivity(intent)
-            }
-        }
     }
 
     override fun getItemId(position: Int): Long {
-        return cities[position].name.hashCode().toLong()
+        return persons[position].name.hashCode().toLong()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.city_list_content, parent, false)
-
-        view.setOnClickListener(onClickListener)
         return ViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.setCity(cities[position])
+        val item = persons.get(position)
+        holder.idView.text = item.name
+        holder.contentView.text = item.age.toString()
     }
 
     override fun getItemCount():Int {
-        return  cities.size
+        return  persons.size
     }
 
-    fun updateValues(list: RealmResults<City>) {
-        this.cities = list
+    fun updateValues(list: RealmResults<Person>) {
+        this.persons = list
         notifyDataSetChanged()
     }
 
-    fun updateValues(collectionChange: CollectionChange<RealmResults<City>>) {
+    fun updateValues(collectionChange: CollectionChange<RealmResults<Person>>) {
         val changeSet = collectionChange.changeset
-        cities = collectionChange.collection
+        persons = collectionChange.collection
 
         if (changeSet == null || changeSet.state === OrderedCollectionChangeSet.State.INITIAL) {
             notifyDataSetChanged()
@@ -109,13 +87,5 @@ class CityRecyclerViewAdapter(
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val idView: TextView = view.id_text
         val contentView: TextView = view.content
-        val personRecyle: RecyclerView = view.person_list
-
-        fun setCity(city:City) {
-            idView.text = city.name
-            contentView.text = city.votes.toString()
-            itemView.tag = city
-        }
-
     }
 }
