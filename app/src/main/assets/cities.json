@@ -28,7 +28,21 @@
   },
   {
     "name": "Melbourne",
-    "votes": 18
+    "votes": 18,
+    "persons": [
+      {
+        "name": "Cipri",
+        "age": 41
+      },
+      {
+        "name": "Alex",
+        "age": 11
+      },
+      {
+        "name": "Laura",
+        "age": 35
+      }
+    ]
   },
   {
     "name": "Paris",
@@ -44,7 +58,17 @@
   },
   {
     "name": "New York",
-    "votes": 11
+    "votes": 11,
+    "persons": [
+      {
+        "name": "John",
+        "age": 45
+      },
+      {
+        "name": "Greg",
+        "age": 35
+      }
+    ]
   },
   {
     "name": "Krakow",
@@ -60,7 +84,17 @@
   },
   {
     "name": "Kansas City",
-    "votes": 100
+    "votes": 100,
+    "persons": [
+      {
+        "name": "Home",
+        "age": 5
+      },
+      {
+        "name": "Alone",
+        "age": 10
+      }
+    ]
   },
   {
     "name": "Tokyo",

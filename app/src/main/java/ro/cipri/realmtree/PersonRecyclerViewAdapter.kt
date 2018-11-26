@@ -5,18 +5,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import io.realm.OrderedCollectionChangeSet
+import io.realm.RealmList
 import io.realm.RealmResults
 import io.realm.rx.CollectionChange
 import kotlinx.android.synthetic.main.city_list_content.view.*
-import ro.cipri.realmtree.model.City
-import java.util.*
-import io.realm.OrderedCollectionChangeSet
 import ro.cipri.realmtree.model.Person
+import java.util.*
 
 
-class PersonRecyclerViewAdapter(
-    private val parentActivity: CityListActivity,
-    private val twoPane: Boolean) : RecyclerView.Adapter<PersonRecyclerViewAdapter.ViewHolder>() {
+class PersonRecyclerViewAdapter : RecyclerView.Adapter<PersonRecyclerViewAdapter.ViewHolder>() {
 
     private var persons: List<Person> = Collections.emptyList()
 
@@ -26,13 +24,11 @@ class PersonRecyclerViewAdapter(
         setHasStableIds(true)
     }
 
-    override fun getItemId(position: Int): Long {
-        return persons[position].name.hashCode().toLong()
-    }
+    override fun getItemId(position: Int) = persons[position].name.hashCode().toLong()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.city_list_content, parent, false)
+            .inflate(R.layout.person_list_content, parent, false)
         return ViewHolder(view)
     }
 
@@ -43,7 +39,10 @@ class PersonRecyclerViewAdapter(
     }
 
     override fun getItemCount():Int {
-        return  persons.size
+        val list = persons
+
+        return list.size
+        //return if (list is RealmList && list.isValid) list.size else 0
     }
 
     fun updateValues(list: RealmResults<Person>) {
@@ -51,9 +50,9 @@ class PersonRecyclerViewAdapter(
         notifyDataSetChanged()
     }
 
-    fun updateValues(collectionChange: CollectionChange<RealmResults<Person>>) {
+    fun updateValues(collectionChange: CollectionChange<RealmList<Person>>) {
         val changeSet = collectionChange.changeset
-        persons = collectionChange.collection
+        persons = if (collectionChange.collection.isValid) collectionChange.collection else Collections.emptyList()
 
         if (changeSet == null || changeSet.state === OrderedCollectionChangeSet.State.INITIAL) {
             notifyDataSetChanged()

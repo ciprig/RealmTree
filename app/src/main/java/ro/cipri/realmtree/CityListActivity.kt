@@ -1,13 +1,11 @@
 package ro.cipri.realmtree
 
 import android.os.Bundle
-import android.os.PersistableBundle
+import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.RecyclerView
-import android.support.design.widget.Snackbar
 import android.util.Log
 import io.reactivex.disposables.CompositeDisposable
-
 import kotlinx.android.synthetic.main.activity_city_list.*
 import kotlinx.android.synthetic.main.city_list.*
 
@@ -60,7 +58,7 @@ class CityListActivity : AppCompatActivity() {
 
     private fun setupRecyclerView(recyclerView: RecyclerView) {
 
-        adapter = CityRecyclerViewAdapter(this, twoPane)
+        adapter = CityRecyclerViewAdapter(repository, this, twoPane)
         recyclerView.adapter = adapter
 
         disp.add(repository.getCitiesChangeset().doOnNext {Log.i("realm",
